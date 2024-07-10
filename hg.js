@@ -1,5 +1,5 @@
 [rewrite_local]
-^https://mobilewts\.haige\.com:82/gateway/wtspro-attendance/attData/mobileAddAttData url script-request-body hg.js
+^https://mobilewts\.haige\.com:82/gateway/wtspro-attendance/attData/mobileAddAttData url script-request-body https://raw.githubusercontent.com/Jrong-lin/script/main/hg.js
 
 [mitm]
 hostname = *.haige.*
